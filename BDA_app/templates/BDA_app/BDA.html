@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-weight: bold;
+        }
+        a {
+            margin: 10px;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    {% load static %}
+    <div class="container">
+        <h1>Mansi More</h1>
+        <h2>I am a programmer!</h2>
+        <a href="https://www.linkedin.com/in/mansi-more-0943/" target="_blank">
+            <img src="{% static 'Linkedin.png' %}" alt="LinkedIn"> LinkedIn
+        </a>
+        <a href="https://github.com/MansiMore99" target="_blank">
+            <img src="{% static 'Github.png' %}" alt="GitHub"> GitHub
+        </a>
+    </div>
+</body>
+</html>
