@@ -1,10 +1,7 @@
 ## SimpleDjangoPortfolio 📱💻
 
-This project is a simple web application built using the Django framework. It demonstrates a Django app's basic setup and configuration with a SQLite3 database. The HTML page includes personal profile information and links to my LinkedIn and GitHub profiles.
-
-The application includes a profile page that displays information about the developer. It provides links to the developer's LinkedIn and GitHub profiles for easy access.
-
-_____________________________________________________________________________________________________________________________________________________________________________________
+This project is a simple web application built using the Django framework. It demonstrates a basic setup with a SQLite3 database and includes personal profile information and links to my LinkedIn and GitHub profiles.
+_______________________________________________________________________________________________________________________________________________
 
 **Profile Links:**
 
